@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#menuHorizontal{
+    list-style: none;
+    padding: 0;
+    background-color: #ffffff;
+    margin: 15px;
+    text-align: end;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#menuHorizontal li{
+    width: 100%;
+    padding: 20px;
+    display: inline;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#banner{
+    width: 100%; /* largura */
+    /* height: ; altura */
+    display:flex ;
+}
+
+#bannerEsquerda{
+    width: 30%;
+}
+
+#bannerDireita{
+    width: 70%;
+}
+
+#subFrase{
+    margin: 8px;
+}
+
+#bloco{
+    width: 100%;
+    display: flex;
+}
+
+#servicos{
+    width: 70%;
+    background-color: aqua;
+}
+
+#agenda{
+    width: 30%;
+    background-color: blueviolet;
+}
